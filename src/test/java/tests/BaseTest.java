@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
 public class BaseTest {
     final static String BASE_URI = "https://studio-api.softr.io/v1/api";
     final static String API_KEY = "khIbAyJIU5CIuh1oDuBRx1s49";
-    final static String DOMAIN = "jere237.softr.app";
+    final static String DOMAIN = "https://erich416.softr.app";
 
 
     static RequestSpecification specification = new RequestSpecBuilder()
