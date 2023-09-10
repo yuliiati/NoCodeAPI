@@ -3,7 +3,7 @@ package dto;
 import lombok.*;
 
 @Setter@Getter@AllArgsConstructor@NoArgsConstructor@Builder
-public class ValidUserRequest {
+public class SuccessCreateUserRequest {
     private String full_name;
     private String email;
     private String password;
